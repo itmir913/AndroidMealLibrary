@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">AndroidMealLibrary</string>
+
+    <string name="loading_title">로딩중</string>
+    <string name="no_network_msg">인터넷 연결이 안되서 데이터를 다운로드 할 수 없습니다</string>
+    <string name="no_data_lunch">점심이 없습니다.</string>
+    <string name="no_data_dinner">저녁이 없습니다.</string>
+
+</resources>
