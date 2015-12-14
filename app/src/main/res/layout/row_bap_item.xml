@@ -43,11 +43,31 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:text="아침"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mMorning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
             android:text="점심"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/mLunch"
@@ -55,8 +75,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
-            android:textSize="15dp"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -65,9 +85,9 @@
             android:layout_marginTop="30dp"
             android:text="저녁"
             android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black"
             android:textSize="20dp"
-            android:textStyle="bold"
-            android:textColor="@android:color/black" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/mDinner"
@@ -75,8 +95,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
-            android:textSize="15dp"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@android:color/darker_gray"
+            android:textSize="15dp" />
 
         <!-- TODO 그래프 또는 칼로리 -->
 

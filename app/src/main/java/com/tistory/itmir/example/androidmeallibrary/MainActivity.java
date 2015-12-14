@@ -138,7 +138,7 @@ public class MainActivity extends ActionBarActivity {
              * mAdapter에 급식을 추가합니다.
              */
 
-            mAdapter.addItem(mData.Calender, mData.DayOfTheWeek, mData.Lunch, mData.Dinner);
+            mAdapter.addItem(mData.Calender, mData.DayOfTheWeek, mData.Morning, mData.Lunch, mData.Dinner);
             mCalendar.add(Calendar.DATE, 1);
         }
 

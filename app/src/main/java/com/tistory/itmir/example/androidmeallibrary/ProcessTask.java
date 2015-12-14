@@ -4,8 +4,6 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
-import java.util.Calendar;
-
 import toast.library.meal.MealLibrary;
 
 /**
@@ -22,7 +20,7 @@ public abstract class ProcessTask extends AsyncTask<Integer, Integer, Long> {
     final String schulCrseScCode = "yourSchulCrseScCode"; // 학교 종류 코드 1
     final String schulKndScCode = "yourSchulKndScCode"; // 학교 종류 코드 2
 
-    String[] Calender, Lunch, Dinner;
+    String[] Calender, Morning, Lunch, Dinner;
 
     public abstract void onPreDownload();
 
@@ -67,6 +65,9 @@ public abstract class ProcessTask extends AsyncTask<Integer, Integer, Long> {
 
             publishProgress(50);
 
+            Morning = MealLibrary.getMealNew(CountryCode, schulCode,
+                    schulCrseScCode, schulKndScCode, "1", year, month, day);
+
             Lunch = MealLibrary.getMealNew(CountryCode, schulCode,
                     schulCrseScCode, schulKndScCode, "2", year, month, day);
 
@@ -75,7 +76,7 @@ public abstract class ProcessTask extends AsyncTask<Integer, Integer, Long> {
             Dinner = MealLibrary.getMealNew(CountryCode, schulCode,
                     schulCrseScCode, schulKndScCode, "3", year, month, day);
 
-            BapTool.saveBapData(mContext, Calender, Lunch, Dinner);
+            BapTool.saveBapData(mContext, Calender, Morning, Lunch, Dinner);
 
             publishProgress(100);
 
