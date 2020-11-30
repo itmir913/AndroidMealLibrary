@@ -1,8 +1,13 @@
-# Android Meal Library with Mir(whdghks913)
+# Android Meal Library with Mir(itmir913)
 
 ## UPDATE 20150525
 
 ## https://github.com/itmir913/wondanghighschool
+
+### 업데이트 지원 중단
+나이스에서 오픈 API로 급식 정보를 공개함에 따라, 급식 파싱 라이브러리의 지원을 공식적으로 중단합니다.  
+지금까지 제 라이브러리를 사용해주신 모든 분들께 감사의 말씀을 드리며, 아래 사이트로 접속하여 정부에서 공개한 API 정보를 확인하시기 바랍니다.  
+[https://open.neis.go.kr/portal/data/dataset/searchDatasetPage.do](https://open.neis.go.kr/portal/data/dataset/searchDatasetPage.do)
 
 ### 안내
 * 이 프로젝트는 AndroidMealLibrary의 샘플 프로젝트 입니다.
